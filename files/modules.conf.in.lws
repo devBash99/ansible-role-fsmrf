@@ -4,7 +4,7 @@ applications/mod_av
 #applications/mod_avmd
 #applications/mod_bert
 #applications/mod_blacklist
-#applications/mod_callcenter
+applications/mod_callcenter
 #applications/mod_cidlookup
 #applications/mod_cluechoo
 applications/mod_commands
@@ -163,7 +163,7 @@ say/mod_say_en
 #timers/mod_posix_timer
 #timers/mod_timerfd
 xml_int/mod_xml_cdr
-#xml_int/mod_xml_curl
+xml_int/mod_xml_curl
 #xml_int/mod_xml_ldap
 #xml_int/mod_xml_radius
 xml_int/mod_xml_rpc

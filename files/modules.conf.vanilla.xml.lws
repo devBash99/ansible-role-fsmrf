@@ -14,8 +14,8 @@
     <load module="mod_enum"/>
 
     <!-- XML Interfaces -->
-    <!-- <load module="mod_xml_rpc"/> -->
-    <!-- <load module="mod_xml_curl"/> -->
+    <load module="mod_xml_rpc"/>
+    <load module="mod_xml_curl"/>
     <!-- <load module="mod_xml_cdr"/> -->
     <!-- <load module="mod_xml_radius"/> -->
     <!-- <load module="mod_xml_scgi"/> -->
@@ -58,7 +58,7 @@
     <load module="mod_db"/>
     <load module="mod_dptools"/>
     <load module="mod_expr"/>
-    <load module="mod_fifo"/>
+    <!-- <load module="mod_fifo"/> -->
     <load module="mod_hash"/>
     <!--<load module="mod_mongo"/> -->
     <load module="mod_voicemail"/>
@@ -141,7 +141,7 @@
 
     <!-- Third party modules -->
     <!--<load module="mod_nibblebill"/>-->
-    <!--<load module="mod_callcenter"/>-->
+    <load module="mod_callcenter"/>
 
   </modules>
 </configuration>
